@@ -51,6 +51,12 @@ values('Criar 5 assistentes','ImagemTrofeu.png','Esse troféu é concedido ao usuá
 insert into LibraryTrophy(UnlockData)
 values('07/07/2022');
 
+insert into UserType(TitleUserType)
+values('Administrador');
+
+insert into UserName(userName, Email, Passwd, CPF, PhotoUser, Phone, BirthDate, RG, UserValidation)
+values('erick', 'erick@gmail.com', 'Senai@132', '47955470842', 'fotolegal.png', '11940028922', '', '349025897', 1);
+
 ----------------------------------
 --PARTE DA MANHA
 ----------------------------------

@@ -7,7 +7,7 @@ GO
 --create UserType table
 create table UserType(
         IdUserType INT PRIMARY KEY Identity not null,
-        TitleUserType int not null
+        TitleUserType varchar(45) not null	
 );
 GO
 
