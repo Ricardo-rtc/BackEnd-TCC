@@ -5,15 +5,15 @@ using System.Collections.Generic;
 
 namespace _2RPNET_API.Domains
 {
-    public partial class Role
+    public partial class Office
     {
-        public Role()
+        public Office()
         {
             Employees = new HashSet<Employee>();
         }
 
-        public int IdRoles { get; set; }
-        public string TitleRoles { get; set; }
+        public int IdOffice { get; set; }
+        public string TitleOffice { get; set; }
 
         public virtual ICollection<Employee> Employees { get; set; }
     }

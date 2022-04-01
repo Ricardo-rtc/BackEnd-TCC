@@ -13,7 +13,7 @@ namespace _2RPNET_API.Domains
         }
 
         public int IdUserType { get; set; }
-        public int TitleUserType { get; set; }
+        public string TitleUserType { get; set; }
 
         public virtual ICollection<UserName> UserNames { get; set; }
     }

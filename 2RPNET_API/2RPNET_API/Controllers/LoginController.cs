@@ -1,5 +1,4 @@
-﻿using _2RPNET_API.Domains;
-using _2RPNET_API.Interfaces;
+﻿using _2RPNET_API.Interfaces;
 using _2RPNET_API.Repositories;
 using _2RPNET_API.ViewModels;
 using Microsoft.AspNetCore.Http;

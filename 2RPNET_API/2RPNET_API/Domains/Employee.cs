@@ -18,10 +18,10 @@ namespace _2RPNET_API.Domains
         public bool Confirmation { get; set; }
         public int? IdUser { get; set; }
         public int? IdCorporation { get; set; }
-        public int? IdRoles { get; set; }
+        public int? IdOffice { get; set; }
 
         public virtual Corporation IdCorporationNavigation { get; set; }
-        public virtual Role IdRolesNavigation { get; set; }
+        public virtual Office IdOfficeNavigation { get; set; }
         public virtual UserName IdUserNavigation { get; set; }
         public virtual ICollection<Assistant> Assistants { get; set; }
         public virtual ICollection<Player> Players { get; set; }
